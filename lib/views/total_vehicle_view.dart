@@ -27,7 +27,7 @@ class TotalVehicleView extends StatelessWidget {
               return VehicleCard(
                   size: size,
                   onTap: () {
-                    vehicleController.fetchVehicleDetails(index + 1);
+                    vehicleController.getDetailedProperties(index + 1);
                     print('object');
                     Get.to(() => VehicleDetails());
                   },
