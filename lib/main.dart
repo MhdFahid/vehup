@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 
 import 'views/splash_view.dart';
 
+//testing
 void main() {
   runApp(const MyApp());
 }
